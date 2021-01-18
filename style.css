@@ -1,0 +1,149 @@
+
+body {
+  margin: 0;
+  font-family: "Source Sans Pro",sans-serif;
+  background-color: darkgrey;
+  
+}
+
+/* Header Section All Pages */
+
+.header {
+  background-color: #283593;
+  color: #FFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px;
+  padding: 0 45px;
+  flex-wrap: wrap;
+}
+
+/* navigation Section Top of Page */
+
+.nav a {
+  font-size: xx-small;
+  color: #FFFF;
+  text-decoration: none;
+  display: block;
+  transition: all 0.5s ease-out;
+}
+ 
+.nav a:hover {
+  color: #c5cae9;
+  transform: rotate(6deg);
+}
+  
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display:flex;
+}
+
+.nav li {
+  margin-left: 20px;
+}
+
+.button a {
+  background-color: #3949ab;
+  color: #FFF;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 1.18rem;
+  display: inline-block;
+}
+
+.button a:hover {
+  color: darkseagreen;
+}
+
+/* Main Section Home Page */
+
+.hero {
+  background-color: #c5cae9;
+  padding: 60px 45px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-inner {
+  max-width: 760px;
+  
+}
+.hero h1 {
+  font-weight: normal;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 1.18 rem;
+  line-height: 1.6;
+}
+
+
+/* images photo page */
+
+.image-container {
+  max-width: 1200px;
+  background-color: #FFF;
+  margin: 40px auto 0 auto; /* top left bottom right */
+  padding: 20px 0;
+  display: flex;
+  flex-basis: auto;
+  justify-content: space-between;
+  justify-content:space-evenly;
+  
+ }
+
+.images {
+ padding: 20px 20px 20px 50px;
+ display: flex;
+ flex-wrap: wrap;
+ }
+
+.images img {
+  flex: 1;
+  padding: 10px;
+  width: 150px;
+  height: 100px;
+ }
+
+ /* front page articles */
+
+.articles {
+  max-width: 1200px;
+  background-color: #FFF;
+  margin: 50px;
+  line-height: 1.65;
+  padding: 20px 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  justify-content:space-evenly;
+}
+
+.article1 {
+  flex: 1;
+  padding: 20px;
+}
+
+.article2 {
+  flex: 1;
+  padding: 20px;
+}
+
+.article3  {
+  flex: 1;
+  padding: 20px;
+ }
+
+ /* footer */
+
+ .footer {
+  padding: 20px;
+   font-size: 1rem;
+   color: darkslateblue;
+   text-align: center;
+ }
